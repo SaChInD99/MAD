@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivityLogin">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <TextView
+
+            android:id="@+id/loginicon"
+            android:layout_width="386dp"
+            android:layout_height="9dp"
+            android:gravity="end"
+
+            android:text="Log in"
+            android:textColor="@color/blackcolor"
+            android:textSize="15dp" />
+
+
+    </LinearLayout>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="sans-serif-medium"
+                android:text="Create Your  Account"
+                android:textColor="@color/blackcolor"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/Reg_yourname"
+                android:layout_width="282dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/btn"
+                android:elevation="5dp"
+                android:hint="Enter your Name"
+                android:inputType="text"
+                android:paddingLeft="15dp"
+                android:textColorHint="@color/Silvercolor" />
+
+            <EditText
+                android:id="@+id/Reg_email"
+                android:layout_width="280dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/btn"
+                android:elevation="5dp"
+                android:hint="Enter your E-Mail"
+                android:inputType="textEmailAddress"
+                android:paddingLeft="15dp"
+                android:textColorHint="@color/Silvercolor" />
+
+            <EditText
+                android:id="@+id/Reg_phonenumber"
+                android:layout_width="280dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/btn"
+                android:elevation="5dp"
+                android:hint="Enter your Phone Number"
+                android:inputType="phone"
+                android:paddingLeft="15dp"
+                android:textColorHint="@color/Silvercolor" />
+
+            <EditText
+                android:id="@+id/Reg_address"
+                android:layout_width="280dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/btn"
+                android:elevation="5dp"
+                android:hint="Enter your Address"
+                android:inputType="text"
+                android:paddingLeft="15dp"
+                android:textColorHint="@color/Silvercolor" />
+
+            <EditText
+                android:id="@+id/Reg_password"
+                android:layout_width="280dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/btn"
+                android:elevation="5dp"
+                android:hint="Enter new Password"
+                android:inputType="textPassword"
+
+                android:paddingLeft="15dp"
+                android:textColorHint="@color/Silvercolor" />
+
+            <Button
+                android:id="@+id/Reg_signup"
+                android:layout_width="280dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/editbtn"
+                android:elevation="5dp"
+                android:text="Sign up"
+                android:textAllCaps="false"
+                android:textColor="@color/Whitecolor" />
+
+            <TextView
+                android:layout_width="200dp"
+                android:id="@+id/alreadyAcc"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:text="Already have an Account?"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textColor="@color/blackcolor" />
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:text="By pressing 'Sign up' you agree\n    to our terms and conditions"
+                android:textColor="@color/Silvercolor" />
+        </LinearLayout>
+    </ScrollView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_marginHorizontal="150dp"
+        android:layout_marginVertical="10dp"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        app:cardCornerRadius="60dp"
+        >
+
+        <ImageView
+            android:id="@+id/imageView11"
+            android:layout_width="130dp"
+            android:layout_height="match_parent"
+
+            app:srcCompat="@drawable/logo" />
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:gravity="center"
+    tools:context=".SalaryManage">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_marginHorizontal="150dp"
+                android:layout_marginVertical="10dp"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                app:cardCornerRadius="60dp"
+                >
+
+                <ImageView
+                    android:id="@+id/imageView11"
+                    android:layout_width="130dp"
+                    android:layout_height="match_parent"
+
+                    app:srcCompat="@drawable/applogo" />
+
+            </androidx.cardview.widget.CardView>
+
+            <EditText
+                android:id="@+id/salRegNo"
+                android:layout_width="282dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="35dp"
+                android:background="@drawable/text"
+                android:elevation="10dp"
+                android:hint="Guide Registration Number"
+                android:inputType="number"
+                android:maxLines="1"
+                android:paddingLeft="15dp"
+                android:textAlignment="center"
+                android:textColorHint="@color/silver" />
+
+            <EditText
+                android:id="@+id/salBasSal"
+                android:layout_width="282dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/text"
+                android:elevation="10dp"
+                android:hint="Basic Salary"
+                android:inputType="number"
+                android:maxLines="1"
+                android:paddingLeft="15dp"
+                android:textAlignment="center"
+                android:textColorHint="@color/silver" />
+
+            <EditText
+                android:id="@+id/salBonRate"
+                android:layout_width="282dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/text"
+                android:elevation="10dp"
+                android:hint="Bonus Rate"
+                android:inputType="number"
+                android:maxLines="1"
+                android:paddingLeft="15dp"
+                android:textAlignment="center"
+                android:textColorHint="@color/silver" />
+
+            <EditText
+                android:id="@+id/salNoOfT"
+                android:layout_width="282dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/text"
+                android:elevation="10dp"
+                android:hint="NO Of Trips Guide Cover"
+                android:inputType="number"
+                android:maxLines="1"
+                android:paddingLeft="15dp"
+                android:textAlignment="center"
+                android:textColorHint="@color/silver" />
+
+            <Button
+                android:id="@+id/salCalBut"
+                android:layout_width="185dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/button"
+                android:elevation="5dp"
+                android:text="Calculate"
+                android:textAllCaps="false"
+                android:textColor="@color/lightWhite"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/TotSal"
+                android:layout_width="282dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/text"
+                android:elevation="10dp"
+                android:enabled="false"
+                android:hint="Total Salary"
+                android:inputType="number"
+                android:maxLines="1"
+                android:paddingLeft="15dp"
+                android:textAlignment="center"
+                android:textColorHint="@color/silver" />
+
+            <Button
+                android:id="@+id/checkSal"
+                android:layout_width="282dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/button"
+                android:elevation="5dp"
+                android:text="Return to home"
+                android:textAllCaps="false"
+                android:textColor="@color/lightWhite"
+                android:textSize="20dp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

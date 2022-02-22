@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".expenseActivity"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/calculateBtn"
+        android:layout_width="280dp"
+        android:layout_height="45dp"
+        android:background="@drawable/calculateexpense_btn"
+        android:elevation="5dp"
+        android:text="calculate Expense"
+        android:textAllCaps="false"
+        android:textColor="@color/Whitecolor"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.511"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.631" />
+
+
+    <TextView
+        android:id="@+id/Income"
+        android:layout_width="62dp"
+        android:layout_height="23dp"
+        android:text="Income"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.209"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.261" />
+
+    <TextView
+        android:id="@+id/TotalProfit"
+        android:layout_width="wrap_content"
+        android:layout_height="23dp"
+        android:text="Total Profit"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.71" />
+
+    <TextView
+        android:id="@+id/Expense"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Expense"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.175"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.41" />
+
+    <EditText
+        android:id="@+id/ExpenseTotal"
+        android:layout_width="282dp"
+        android:layout_height="45dp"
+        android:background="@drawable/btn"
+        android:elevation="5dp"
+        android:hint="Total Expense"
+        android:inputType="text"
+        android:paddingLeft="15dp"
+        android:textColorHint="@color/Silvercolor"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/totProfit"
+        android:layout_width="282dp"
+        android:layout_height="45dp"
+        android:background="@drawable/btn"
+        android:elevation="5dp"
+        android:hint="Total Profit"
+        android:inputType="text"
+        android:paddingLeft="15dp"
+        android:textColorHint="@color/Silvercolor"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.519"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.79" />
+
+    <EditText
+        android:id="@+id/IncomeTotal"
+        android:layout_width="282dp"
+        android:layout_height="45dp"
+        android:background="@drawable/btn"
+        android:elevation="5dp"
+        android:hint="Total Income"
+        android:inputType="text"
+        android:paddingLeft="15dp"
+        android:textColorHint="@color/Silvercolor"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.32" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

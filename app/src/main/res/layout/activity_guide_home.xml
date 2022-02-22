@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    tools:context=".GuideHome">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:layout_width="170dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="20dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/logo" />
+
+        <Button
+            android:id="@+id/manageGuide"
+            android:layout_width="282dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/button"
+            android:elevation="5dp"
+            android:text="Manage Guide"
+            android:textAllCaps="false"
+            android:textColor="@color/lightWhite"
+            android:textSize="20dp"
+            tools:ignore="InvalidId" />
+
+
+
+
+        <Button
+            android:id="@+id/salDetails"
+            android:layout_width="282dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/button"
+            android:elevation="5dp"
+            android:text="Salary Details"
+            android:textAllCaps="false"
+            android:textColor="@color/lightWhite"
+            android:textSize="20dp" />
+
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

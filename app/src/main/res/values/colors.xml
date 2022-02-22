@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary1">#6200EE</color>
+    <color name="colorPrimaryDark1">#3700B3</color>
+    <color name="colorAccent1">#03DAC5</color>
+    <color name="red">#FF2E2E</color>
+    <color name="colorPrimary">#009688</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#E91E63</color>
+    <color name="bordercolor">#E91E63</color>
+    <color name="col1">#043940</color>
+    <color name="lightWhite">#F5F5F3</color>
+    <color name="silver">#C0C0C0</color>
+    <color name="dodgerBlue">#1E90FF</color>
+    <color name="proceedgreen">#86D0F1</color>
+    <color name="white">#FFFFFF</color>
+    <color name="delred">#FD8686</color>
+    <color name="bluemng">#0AC7DF</color>
+    <color name="purple">#4A47A7</color>
+    <color name="calpuprple">#9C27B0</color>
+    <color name="bookcol">#E91E63</color>
+    <color name="caltot">#8EF425</color>
+    <color name="lightwhite">#F5F5F3</color>
+    <color name="blackcolor">#000000</color>
+    <color name="greycolor">#696969</color>
+    <color name="Silvercolor">#C0C0C0</color>
+    <color name="Whitecolor">#FFFFFF</color>
+    <color name="MediumSpringGreen">#00FA9A</color>
+    <color name="dodgerblue">#1E90FF</color>
+    <color name="colorprimary">#49BEFF</color>
+    <color name="blue1">#65DCE5</color>
+    <color name="headings">#3797CF</color>
+    <color name="SolidCircle">#80FFFFFF</color>
+    <color name="circleBorder">#30FFFFFF</color>
+    <color name="gradEnd">#67EFC8</color>
+    <color name="gradStart">#63C9FF</color>
+    <color name="grey">#E5E5E5</color>
+
+</resources>

@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lightwhite"
+    android:orientation="vertical"
+    tools:context=".updateProfile">
+
+
+    <include layout = "@layout/updatetoolbar"/>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="149dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingTop="10dp">
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:src="@drawable/index" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/colorAccent" />
+
+    </LinearLayout>
+
+
+    <ScrollView
+
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="670dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+
+            <EditText
+                android:id="@+id/UPDATE_yourname"
+                android:layout_width="282dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/btn"
+                android:elevation="5dp"
+                android:hint="Update your Name"
+                android:inputType="text"
+                android:paddingLeft="15dp"
+                android:textColorHint="@color/Silvercolor" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="15dp"
+                android:background="@color/Silvercolor" />
+
+            <EditText
+                android:id="@+id/UPDATE_email"
+                android:layout_width="280dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/btn"
+                android:elevation="5dp"
+                android:enabled="false"
+                android:hint="Update your E-Mail"
+                android:inputType="textEmailAddress"
+                android:paddingLeft="15dp"
+                android:textColorHint="@color/Silvercolor" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="15dp"
+                android:background="@color/Silvercolor" />
+
+            <EditText
+                android:id="@+id/UPDATE_Phone"
+                android:layout_width="280dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/btn"
+                android:elevation="5dp"
+                android:hint="Update your Phone Number"
+                android:inputType="phone"
+                android:paddingLeft="15dp"
+                android:textColorHint="@color/Silvercolor" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="15dp"
+                android:background="@color/Silvercolor" />
+
+            <EditText
+                android:id="@+id/UPDATE_Address"
+                android:layout_width="280dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/btn"
+                android:elevation="5dp"
+                android:hint="Update your Address"
+                android:inputType="text"
+                android:paddingLeft="15dp"
+                android:textColorHint="@color/Silvercolor" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="15dp"
+                android:background="@color/Silvercolor" />
+
+            <EditText
+                android:id="@+id/UPDATE_Password"
+                android:layout_width="280dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/btn"
+                android:elevation="5dp"
+                android:enabled="false"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:paddingLeft="15dp"
+                android:textColorHint="@color/Silvercolor" />
+
+
+
+            <TextView
+                android:id="@+id/UPDATEprofileBTN"
+                android:layout_width="180dp"
+                android:layout_height="51dp"
+                android:layout_marginLeft="-5dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/textbtn"
+                android:drawableLeft="@drawable/ic_baseline_edit_24"
+                android:gravity="center"
+                android:paddingLeft="10dp"
+                android:text="update Profile"
+                android:textColor="@color/blue1"
+                android:textSize="15dp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/proback4"
+    android:gravity="center"
+
+    tools:context=".Login_Activity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:gravity="center"
+                android:text="@string/welcome"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="@color/blackcolor"
+                android:textSize="36dp"
+                android:textStyle="bold"
+
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:gravity="center"
+                android:text="@string/Login_Act"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="@color/blackcolor"
+                android:textSize="36dp"
+                android:textStyle="bold"
+
+                />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                app:cardCornerRadius="60dp"
+                >
+
+                <ImageView
+                    android:id="@+id/imageView11"
+                    android:layout_width="123dp"
+                    android:layout_height="126dp"
+
+                    app:srcCompat="@drawable/logo" />
+
+            </androidx.cardview.widget.CardView>
+
+            <EditText
+                android:id="@+id/login_yourname"
+                android:layout_width="282dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="35dp"
+                android:background="@drawable/btn"
+                android:elevation="5dp"
+                android:hint="Email"
+                android:inputType="textEmailAddress"
+                android:paddingLeft="15dp"
+                android:maxLines="1"
+                android:textColorHint="@color/Silvercolor"/>
+
+            <EditText
+                android:id="@+id/login_password"
+                android:layout_width="280dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/btn"
+                android:elevation="5dp"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:paddingLeft="15dp"
+                android:textColorHint="@color/Silvercolor" />
+
+            <Button
+                android:id="@+id/Login_Btn"
+                android:layout_width="280dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/calculateexpense_btn"
+                android:elevation="5dp"
+                android:text="Login"
+                android:textAllCaps="false"
+                android:textColor="@color/Whitecolor"/>
+
+            <TextView
+                android:id="@+id/sign_to_Customer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Create a new Account"
+                android:padding="5dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/forgot_Password"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="Forget Password?"/>
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
+
+</LinearLayout>
